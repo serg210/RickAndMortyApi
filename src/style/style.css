@@ -1,0 +1,104 @@
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    overflow: auto;
+}
+
+.characters h1 {
+    margin: 0;
+}
+
+.card {
+    margin: 10px;
+    padding-bottom: 15px;
+    width: 250px;
+    color: #232f34;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.12);
+}
+
+.card-image {
+    display: inline-block;
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+.card-name {
+    margin: 10px 0 0 15px;
+    font-size: 1.3rem;
+}
+
+.card-species,
+.card-gender {
+    margin: 0 0 0 15px;
+    color: rgb(150, 144, 144);
+    font-weight: 300;
+}
+.filter-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.filter-search {
+    width: 250px;
+    padding: 10px;
+    margin: 10px 8px;
+    font-weight: 700;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 15px;
+    color: #232f34;
+}
+
+.filter-select {
+    padding: 10px 10px 10px 25px;
+    margin: 10px 8px;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 15px;
+    color: #232f34;
+}
+
+.filter-submit {
+    width: 90px;
+    min-height: 40px;
+    font-weight: 700;
+    margin: 10px 8px;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 15px;
+    background: #f9aa33;
+    color: #232f34;
+    cursor: pointer;
+}
+.preloader {
+    margin-top: 5%;
+    text-align: center;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination-item {
+    padding: 5px 10px;
+    border: 1px solid rgba(0,0,0,.12);
+    border-right: none;
+    color: #232f34;
+    cursor: pointer;
+}
+
+.pagination-item.active {
+    background: #232f34;
+    color: #fff;
+}
+
+.pagination-item:last-child {
+    border-right: 1px solid rgba(0,0,0,.12);
+}
+
